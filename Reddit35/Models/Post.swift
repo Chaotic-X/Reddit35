@@ -1,5 +1,5 @@
 //
-//  Host.swift
+//  Post.swift
 //  Reddit35
 //
 //  Created by Alex Lundquist on 8/5/20.
