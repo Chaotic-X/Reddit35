@@ -12,6 +12,9 @@
 		FAC5D22024DB154400129864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D21E24DB154400129864 /* Main.storyboard */; };
 		FAC5D22224DB154500129864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D22124DB154500129864 /* Assets.xcassets */; };
 		FAC5D22524DB154500129864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D22324DB154500129864 /* LaunchScreen.storyboard */; };
+		FAC5D23524DB168000129864 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23424DB168000129864 /* Host.swift */; };
+		FAC5D23724DB193A00129864 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23624DB193A00129864 /* PostController.swift */; };
+		FAC5D23924DB19F400129864 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23824DB19F400129864 /* PostError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FAC5D22124DB154500129864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC5D22424DB154500129864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC5D22624DB154500129864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC5D23424DB168000129864 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		FAC5D23624DB193A00129864 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		FAC5D23824DB19F400129864 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		FAC5D22D24DB155D00129864 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FAC5D23424DB168000129864 /* Host.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +110,7 @@
 		FAC5D23024DB157600129864 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FAC5D23624DB193A00129864 /* PostController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 		FAC5D23224DB158D00129864 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FAC5D23824DB19F400129864 /* PostError.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -199,6 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC5D23924DB19F400129864 /* PostError.swift in Sources */,
+				FAC5D23524DB168000129864 /* Host.swift in Sources */,
+				FAC5D23724DB193A00129864 /* PostController.swift in Sources */,
 				FAC5D21924DB154400129864 /* AppDelegate.swift in Sources */,
 				FAC5D21B24DB154400129864 /* SceneDelegate.swift in Sources */,
 			);
