@@ -17,8 +17,9 @@ class PostController {
   static func fetchPost(forTopic searchString: String, completion: @escaping (Result<[Post], PostError>) -> Void) {
     guard let url = baseURL else { return completion(.failure(.invalidURL))}
     //ProgrammerHumor
-    let finalURL = url.appendingPathComponent(searchString).appendingPathExtension(".json")
+    let finalURL = url.appendingPathComponent(searchString).appendingPathExtension("json")
     //Do I need to do an http request?
+    print(finalURL)
     URLSession.shared.dataTask(with: finalURL) { (data, _, error) in
       if let error = error {
         return completion(.failure(.thrownError(error)))

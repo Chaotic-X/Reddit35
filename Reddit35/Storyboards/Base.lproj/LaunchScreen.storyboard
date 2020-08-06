@@ -14,7 +14,37 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X9q-Nb-yWg">
+                                <rect key="frame" x="51.666666666666657" y="90.666666666666657" width="310.66666666666674" height="444.33333333333337"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redditlaunch" translatesAutoresizingMaskIntoConstraints="NO" id="0tn-jD-e1e">
+                                        <rect key="frame" x="0.0" y="0.0" width="310.66666666666669" height="310.33333333333331"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0tn-jD-e1e" secondAttribute="height" multiplier="1:1" id="bJ2-le-McE"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devmntlogo" translatesAutoresizingMaskIntoConstraints="NO" id="6KU-Ee-EEk">
+                                        <rect key="frame" x="0.0" y="330.33333333333331" width="310.66666666666669" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="PfQ-VA-Hyo"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="reddit 35" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8D-fx-ZTT">
+                                        <rect key="frame" x="0.0" y="420.33333333333331" width="310.66666666666669" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="X9q-Nb-yWg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FEW-qU-kab"/>
+                            <constraint firstItem="X9q-Nb-yWg" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.75" id="Tzb-iF-UEB"/>
+                            <constraint firstItem="X9q-Nb-yWg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.85" id="tlh-Vi-OXx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -23,4 +53,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="devmntlogo" width="277.66665649414062" height="61"/>
+        <image name="redditlaunch" width="170.66667175292969" height="170.66667175292969"/>
+    </resources>
 </document>

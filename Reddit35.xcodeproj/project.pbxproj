@@ -15,6 +15,8 @@
 		FAC5D23524DB168000129864 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23424DB168000129864 /* Post.swift */; };
 		FAC5D23724DB193A00129864 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23624DB193A00129864 /* PostController.swift */; };
 		FAC5D23924DB19F400129864 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23824DB19F400129864 /* PostError.swift */; };
+		FAC5D23B24DB2A4E00129864 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23A24DB2A4E00129864 /* PostListTableViewController.swift */; };
+		FAC5D23D24DB2A6200129864 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D23C24DB2A6200129864 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		FAC5D23424DB168000129864 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FAC5D23624DB193A00129864 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		FAC5D23824DB19F400129864 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
+		FAC5D23A24DB2A4E00129864 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		FAC5D23C24DB2A6200129864 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 		FAC5D23124DB158300129864 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAC5D23A24DB2A4E00129864 /* PostListTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 		FAC5D23324DB159800129864 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FAC5D23C24DB2A6200129864 /* PostTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,9 +214,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC5D23D24DB2A6200129864 /* PostTableViewCell.swift in Sources */,
 				FAC5D23924DB19F400129864 /* PostError.swift in Sources */,
 				FAC5D23524DB168000129864 /* Post.swift in Sources */,
 				FAC5D23724DB193A00129864 /* PostController.swift in Sources */,
+				FAC5D23B24DB2A4E00129864 /* PostListTableViewController.swift in Sources */,
 				FAC5D21924DB154400129864 /* AppDelegate.swift in Sources */,
 				FAC5D21B24DB154400129864 /* SceneDelegate.swift in Sources */,
 			);
